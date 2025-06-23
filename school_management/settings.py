@@ -99,7 +99,7 @@ DATABASES = {
             'host':os.environ.get('MONGO_HOST'),
             'port': 27017,
             'username':'jatinkoladiya130',
-            'password':os.environ.get('MONGO_PASSWORd'),
+            'password':os.environ.get('MONGO_PASSWORD'),
             'authSource': 'admin',
             'authMechanism': 'SCRAM-SHA-1',  
         }
