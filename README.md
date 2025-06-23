@@ -79,9 +79,9 @@ A backend-only Django REST API for managing school operations such as users, rol
 
 ## Tech Stack
 
-- **Backend**: Django, Django REST Framework
+- **Backend**: Django, Django REST Framework and ORM Djongo 
 - **Auth**: JWT (via `rest_framework_simplejwt`)
-- **Database**: SQLite (Dev) / PostgreSQL (Production-ready)
+- **Database**: MongoDB 
 - **API Testing**: Postman / Swagger (optional)
 
   
